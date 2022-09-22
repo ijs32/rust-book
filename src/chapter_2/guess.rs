@@ -2,7 +2,7 @@ use rand::Rng;
 use std::cmp::Ordering;
 use std::io;
 
-pub fn guessing_game() {
+pub fn _guessing_game() {
     println!("Guess the number!");
 
     let num: u32 = rand::thread_rng().gen_range(1, 101);
