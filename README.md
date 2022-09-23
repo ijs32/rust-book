@@ -14,7 +14,7 @@ I bought a physical copy, but you can find the book on the [rust website](https:
 
 - [x] Chapter 4  - Understanding Ownership
 
-- [ ] Chapter 5  - Using Structs to Structure Data  <!-- page 83 -->
+- [x] Chapter 5  - Using Structs to Structure Data  <!-- page 83 -->
 
 - [ ] Chapter 6  - Enums and Pattern Matching 
 

@@ -8,12 +8,12 @@
 //     println!("x is equal to {}", x);
 //     println!("this is an example of a constant {}", EXAMPLE);
 
-//     // -- shadowing a variable -- 
+//     // -- shadowing a variable --
 //     // you can shadow a variable by simply reassigning it
 //     let x: i32 = 7;
 //     // this doesnt require mutability because we are recreating the variable
 //     let x: bool = x % 2 == 0;
-    
+
 //     println!("original x is even: {}", x);
 //     // we can add an underscore before a variable we arent using
 //     let _y: i32 = 34243;
@@ -40,7 +40,7 @@
 
 //     // tuples have a fixed length, they cannot grow or shrink
 //     // unlike arrays they can hold different data types together
-    
+
 //     // type annotations are not neccessary
 //     let tup: (i32, char, f32) = (82399, 'a', 9.012);
 
@@ -94,15 +94,15 @@
 //     // is identical to pretty much any other language
 //     // i will mention this:
 //     let x: i32 = 5;
-    
-//     /* 
+
+//     /*
 //     if x {
 //         println!("this is an invalid conditional!")
 //     }
 
 //     rust will not try to convert ints to bools like other
 //     scripting languages would
-    
+
 //     this will work:  */
 //     if x != 0 {
 //         println!("perfectly fine conditional!");
