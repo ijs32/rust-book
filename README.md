@@ -16,7 +16,7 @@ I bought a physical copy, but you can find the book on the [rust website](https:
 
 - [x] Chapter 5  - Using Structs to Structure Data  <!-- page 83 -->
 
-- [ ] Chapter 6  - Enums and Pattern Matching 
+- [x] Chapter 6  - Enums and Pattern Matching 
 
 - [ ] Chapter 7  - Managing Growing Projects
 
