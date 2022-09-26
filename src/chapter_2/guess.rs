@@ -1,6 +1,5 @@
 use rand::Rng;
-use std::cmp::Ordering;
-use std::io;
+use std::{cmp::Ordering, io};
 
 pub fn _guessing_game() {
     println!("Guess the number!");

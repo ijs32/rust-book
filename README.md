@@ -20,7 +20,7 @@ I bought a physical copy, but you can find the book on the [rust website](https:
 
 - [x] Chapter 7  - Managing Growing Projects -- decided not to make a folder for this one and instead just read through the chapter
 
-- [ ] Chapter 8  - Common Collections 
+- [x] Chapter 8  - Common Collections 
 
 - [ ] Chapter 9  - Error Handling
 

@@ -23,12 +23,12 @@ pub fn enums() {
     // let six  = IpAddrKind::v6;
 
     enum IpAddr {
-        v4(u8, u8, u8, u8),             // or we can do this
+        v4(u8, u8, u8, u8), // or we can do this
         v6(String),
     }
 
     let home = IpAddr::v4(127, 0, 0, 1);
-    let loopback  = IpAddr::v6(String::from("::1"));
+    let loopback = IpAddr::v6(String::from("::1"));
 
     fn route(ip: IpAddr) -> IpAddr {
         ip
@@ -55,7 +55,7 @@ pub fn enums() {
     m.call();
 
     let number = Some(5); // the Option<T> enum used to check if a value is some or none
-                                       // this is Rust's implementation of 'null'
+                          // this is Rust's implementation of 'null'
 
     #[derive(Debug)]
     enum UsState {
@@ -74,25 +74,25 @@ pub fn enums() {
     impl Coin {
         fn match_coin(&self) -> u8 {
             match self {
-                Coin::Penny   => {
+                Coin::Penny => {
                     println!("Oooooh lucky penny");
                     1
-                },
-                Coin::Nickel  => 5,
-                Coin::Dime    => 10,
+                }
+                Coin::Nickel => 5,
+                Coin::Dime => 10,
                 Coin::Quarter(state) => {
-                    println!("State quarter from {:#?}", state);    
+                    println!("State quarter from {:#?}", state);
                     25
-                },
+                }
             }
         }
         fn count_non_quarters(&self, &count: &i32) -> i32 {
-            match self{
+            match self {
                 Coin::Quarter(state) => {
                     println!("State Quarter from {:#?}", state);
                     count
                 }
-                _ => count + 1
+                _ => count + 1,
             }
         }
     }
@@ -124,8 +124,8 @@ pub fn enums() {
     if let Some(3) = some_val {
         println!("3!");
     }
-                                    // these two are the same, if let is more concise in scenarios
-                                    // where you only need to check one possibility
+    // these two are the same, if let is more concise in scenarios
+    // where you only need to check one possibility
     match some_val {
         Some(3) => println!("3!"),
         _ => (),
@@ -139,7 +139,8 @@ pub fn enums() {
 
     if let Coin::Quarter(state) = alaskan_quarter {
         println!("its a quarter")
-    } else {  // obviously this would make more sense in a function but you get the idea
+    } else {
+        // obviously this would make more sense in a function but you get the idea
         count += 1; // this is the alternative to the match statement found int 'count_non_quarters' impl function
     }
 }

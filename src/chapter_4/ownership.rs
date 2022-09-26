@@ -72,7 +72,6 @@
 
 //     Referencing
 //     */
-
 //     let mut str1: String = String::from("hello");
 
 //     let len: usize = calc_len(&str1); // reference to str1
