@@ -1,15 +1,14 @@
 use std::fmt::format;
 
 pub fn main() {
-    
     let data = "This is some data";
-    
+
     let _s: String = String::from("this is some data");
-    let _s: String = data.to_string();              // these are equivalent
+    let _s: String = data.to_string(); // these are equivalent
     let _s: String = "this is some data".to_string();
 
     let mut s: String = String::from("Foo");
-    s.push_str("Bar"); // you can use push without _str to do a single character 
+    s.push_str("Bar"); // you can use push without _str to do a single character
 
     let s1: String = String::from("this is a string");
     let s2: String = String::from("this is also a string");
@@ -24,8 +23,8 @@ pub fn main() {
     let s3: String = String::from("!");
 
     let _s: String = format!("{}{}{}", s1, s2, s3); // works the same as println! but returns the contents for assignment
-    // Rust strings do not support indexing
-    // remember strings are utf-8 encoded
+                                                    // Rust strings do not support indexing
+                                                    // remember strings are utf-8 encoded
     let _len = String::from("hola").len(); // this would return 4, not because there are 4 letters, but because hola requires 4 bytes to store
 
     let hello: String = "hello".to_string();
@@ -36,9 +35,8 @@ pub fn main() {
     for char in hello.chars() {
         println!("this is char: {}", char) // for characters
     }
-    
+
     for byte in hello.bytes() {
         println!("this is char: {}", byte) // for bytes
     }
-
 }

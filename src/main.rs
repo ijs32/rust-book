@@ -3,7 +3,7 @@
 // use crate::chapter_4::ownership;
 // use crate::chapter_5::structs;
 // use crate::chapter_6::enums;
-use crate::chapter_8::{ vectors, strings, hashmaps, summary };
+use crate::chapter_8::{hashmaps, strings, summary, vectors};
 mod chapter_2;
 mod chapter_3;
 mod chapter_4;
@@ -18,6 +18,6 @@ fn main() {
     // enums::enums();
     // vectors::main();
     // strings::main();
-    hashmaps::main();
+    // hashmaps::main();
     summary::main();
 }

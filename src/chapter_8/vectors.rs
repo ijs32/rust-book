@@ -20,12 +20,13 @@ pub fn main() {
 
     let _out_of_bounds = &vec[100]; // this will cause the compiler to panic
     let _out_of_bounds = vec.get(100); // this will return an Option<T> value of none
-                                      // iterating over a vector
+                                       // iterating over a vector
     for num in &vec {
         println!("current num is: {}", num)
     }
 
-    for num in &mut vec { // iterate over a vector and make changes
+    for num in &mut vec {
+        // iterate over a vector and make changes
         *num *= 2
     }
 
@@ -41,6 +42,4 @@ pub fn main() {
         SpreadSheet::Text(String::from("Hello, World!")), // this works because everything in this vector is type "SpreadSheet"!
         SpreadSheet::Float(3.14),
     ];
-
-    
 }
