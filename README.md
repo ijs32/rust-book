@@ -22,7 +22,7 @@ I bought a physical copy, but you can find the book on the [rust website](https:
 
 - [x] Chapter 8  - Common Collections 
 
-- [ ] Chapter 9  - Error Handling
+- [X] Chapter 9  - Error Handling
 
 - [ ] Chapter 10 - Generic Types, Traits, and Lifetimes
 
