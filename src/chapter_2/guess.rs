@@ -7,7 +7,7 @@ pub fn guessing_game() {
     let num: i32 = rand::thread_rng().gen_range(1, 101);
 
     struct Guess {
-        value: i32
+        value: i32,
     }
 
     impl Guess {
@@ -16,9 +16,7 @@ pub fn guessing_game() {
                 panic!("Guess must be between 1 and 100")
             }
 
-            Guess {
-                value
-            }
+            Guess { value }
         }
 
         pub fn value(&self) -> i32 {

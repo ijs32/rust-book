@@ -1,10 +1,12 @@
-use crate::chapter_2::guess;
+// use crate::chapter_2::guess;
 // use crate::chapter_3::basics;
 // use crate::chapter_4::ownership;
 // use crate::chapter_5::structs;
 // use crate::chapter_6::enums;
 // use crate::chapter_8::{hashmaps, strings, summary, vectors};
 // use crate::chapter_9::errors;
+use crate::chapter_10::{generics, lifetimes, traits};
+mod chapter_10;
 mod chapter_2;
 mod chapter_3;
 mod chapter_4;
@@ -13,7 +15,7 @@ mod chapter_6;
 mod chapter_8;
 mod chapter_9;
 fn main() {
-    guess::guessing_game();
+    // guess::guessing_game();
     // basics::variables();
     // ownership::ownership();
     // structs::structs();
@@ -23,4 +25,5 @@ fn main() {
     // hashmaps::main();
     // summary::main();
     // errors::main();
+    lifetimes::main();
 }

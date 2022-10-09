@@ -24,7 +24,7 @@ I bought a physical copy, but you can find the book on the [rust website](https:
 
 - [X] Chapter 9  - Error Handling
 
-- [ ] Chapter 10 - Generic Types, Traits, and Lifetimes
+- [X] Chapter 10 - Generic Types, Traits, and Lifetimes
 
 - [ ] Chapter 11 - Writing Automated Tests
 
