@@ -22,11 +22,11 @@ I bought a physical copy, but you can find the book on the [rust website](https:
 
 - [x] Chapter 8  - Common Collections 
 
-- [X] Chapter 9  - Error Handling
+- [x] Chapter 9  - Error Handling
 
-- [X] Chapter 10 - Generic Types, Traits, and Lifetimes
+- [x] Chapter 10 - Generic Types, Traits, and Lifetimes
 
-- [ ] Chapter 11 - Writing Automated Tests
+- [x] Chapter 11 - Writing Automated Tests
 
 - [ ] Chapter 12 - An I/O Project: Building the Grep core util
 

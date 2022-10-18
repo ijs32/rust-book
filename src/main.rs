@@ -3,10 +3,12 @@
 // use crate::chapter_4::ownership;
 // use crate::chapter_5::structs;
 // use crate::chapter_6::enums;
-// use crate::chapter_8::{hashmaps, strings, summary, vectors};
+use crate::chapter_8::{hashmaps, strings, summary, vectors};
 // use crate::chapter_9::errors;
-use crate::chapter_10::{generics, lifetimes, traits};
+// use crate::chapter_10::{generics, lifetimes, traits};
+// use crate::chapter_11::testing;
 mod chapter_10;
+mod chapter_11;
 mod chapter_2;
 mod chapter_3;
 mod chapter_4;
@@ -22,8 +24,9 @@ fn main() {
     // enums::enums();
     // vectors::main();
     // strings::main();
-    // hashmaps::main();
+    hashmaps::main();
     // summary::main();
     // errors::main();
-    lifetimes::main();
+    // lifetimes::main();
+    // testing::main();
 }
